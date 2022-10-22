@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css"> 
+    <title>KP FORM</title>
+    <style>
+        body{
+            background-image: url('KP\ P1.jpg'); background-repeat: no-repeat; 
+              background-size: cover; background-position: top left;}
+        
+    </style>
+    </head>
+
+<body>
+
+<div class="main">
+    <div class="head">
+    <img id="title" src="zoomedlogo.png">
+    <p id="discription">Enact Your Matric Journey With Us</p>
+    </div>
+
+<form id="survey-form">
+    <div class="input">
+        <label class="labels" for="name">Name</label>
+        <input  type="text" id="name" placeholder="Enter Name" required>
+    </div>
+
+    <div class="input">
+        <label class="labels" for="email">Email</label>
+        <input  type="email" name="email"  placeholder="Enter Email" required>
+    </div>
+
+    <div class="input">
+        <label class="labels" for="age">Age</label>
+        <input  type="number" min="14" max="25" placeholder="Enter Your Age" required>
+    </div>
+    <p class="caption">Whats Your gender?</p>
+    <div class="container">
+        <input type="radio" name="gender" id="male">
+        <label  class="sex" for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female">
+        <label class="sex" for="female">Female</label>
+    </div>
+    
+    <p id="capition">Which school do you Attend?</p>
+    <div class="drop">
+    <select class="dropdown">
+        <option class="option" value="ques"></option>
+        <option class="option" value="Retshidisitswe S.S">Retshidisitswe S.S</option>
+        <option class="option" value="Qalabotjha S.S">Qalabotjha S.S</option>
+        <option class="option" value="Phomello S.S">Phomello S.S</option>
+        <option class="option" value="Zamaleka S.S">Zamaleka S.S</option>
+        
+    </select> 
+    </div>
+    <p class="caption">Preferred Subjects</p>
+   
+    <div class="inbox">
+        <div class="item">
+            <input type="checkbox">
+            <label class="clabel">Mathematics P</label>
+            </div>
+       
+       <div class="item">
+        <input type="checkbox">
+        <label class="clabel">Mathematics Literacy</label>
+       </div>
+       <div class="item">
+        <input type="checkbox">
+        <label class="clabel">Physical Sciences</label>
+       </div>
+       <div class="item">
+        <input type="checkbox">
+        <label class="clabel">Accounting</label>
+       </div>
+      
+    
+        
+
+    
+    </div>
+    <div class="btn">
+        <input type="button" value="Submit">
+    </div>
+</form> 
+
+
+
+</body>
+</html>

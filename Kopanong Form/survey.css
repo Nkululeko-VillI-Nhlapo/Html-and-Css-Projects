@@ -1,0 +1,237 @@
+.main{
+    width: 430px;
+    border: solid white 1px ;
+    margin-right: 0;
+    margin-left: 900px;
+    border-radius: 20px;
+    
+}
+
+.head{
+    padding-top: 0;
+    height: 250px;
+    border-bottom: #ffffff solid 1px;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.902)); 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+#title{
+    display: block;
+    width: 50%;
+    margin-top: 0;
+    height: 199px;
+    margin-left: 100px;
+  
+    border-bottom: solid 1px black;
+}
+
+#discription{
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    margin-top: 2px;
+    margin-bottom: 0;
+    height: 37px;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    color: rgb(0, 0, 54);
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="number"]{
+    height: 35px;
+    color: rgb(255, 255, 255);
+    margin-top: 4px;
+    width:400px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: #ffffff;
+    background:linear-gradient(rgba(218, 219, 223, 0.884), rgba(0, 18, 184, 0.502));  ;
+}
+
+::placeholder{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+
+.labels{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.container{
+    margin-bottom: 0;
+   height: 150px;
+    
+       
+}
+
+input[type="radio"]{
+    display: none;
+    margin-bottom: 0;
+}
+
+.sex{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 350px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.sex:before{
+    
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+input[type="radio"]:checked + .sex{
+    background:linear-gradient(rgba(218, 219, 223, 0.884), rgba(0, 18, 184, 0.502));
+    color: white;
+}
+
+input[type="radio"]:checked + .sex:before{
+   height: 16px;
+   width: 16px;
+   border: 10px solid white;
+   background:linear-gradient(rgba(218, 219, 223, 0.884), rgba(0, 18, 184, 0.502));
+}
+
+.caption{
+   
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 0;
+
+}
+
+.drop{
+
+    height: 60px;
+
+}
+select{
+    height: 35px;
+    color: rgb(0, 185, 231);
+    margin-top: 4px;
+    width:400px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: #ffffff;
+   
+    background: linear-gradient(rgb(0, 28, 119),rgba(4, 100, 243, 0.363));
+
+}
+
+#capition{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 0;
+    
+}
+
+.inbox{
+    
+   box-shadow: 8px 14px 20px rgba(40, 28,79, 0.34) ; 
+   max-width: 400px;
+   margin: 4px auto;
+   background:  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.902));
+}
+
+.item{
+    margin-top: 0em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid blue;
+}
+
+.item:last-child{
+    border-bottom: 0;
+}
+
+.item:checked + label{
+    background: #a83939;
+    color: blue;
+    transition: 0.1s ease-in-out;
+    text-decoration: line-through;
+}
+
+input[type="checkbox"]{
+   width: 30px;
+   height: 30px;
+   margin: 20px;
+   border-radius:50% ;
+}
+
+.clabel{
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-size: 1.2rem;
+    border-left: 1px solid blue;
+    color: blue;
+
+}
+
+input[type="button"]{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+    color: aliceblue;
+    border: none;
+    margin: 20px 0;
+   
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(0, 28, 119),rgba(4, 100, 243, 0.363));
+
+}
+
+.option{
+    background:  linear-gradient(rgb(0, 28, 119),rgba(4, 100, 243, 0.363));
+}
