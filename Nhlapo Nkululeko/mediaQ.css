@@ -1,0 +1,199 @@
+@media only screen and (max-width: 600px) {
+    
+
+    #navbar{
+      display: none;
+    }
+
+    .main-doc{
+      margin-left: 0;
+    }
+
+    #About{
+      max-width: 600px;
+    }
+
+    #Name{
+        font-size: 50px;
+        width: 300px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+
+    #details, #myself{
+        width: 290px ;
+        font-size: 20px;
+        margin-left: 12px;
+    }
+
+    #Education{
+        max-width: 600px;
+    }
+
+    .discrip{
+        width: 270px ;
+        font-size: 20px;
+    }
+
+    .edtitle{
+        font-size: 40px;
+        margin-left: 0;
+        border-bottom: solid rgb(68, 0, 255) 3px;
+        width: 300px;
+        text-align: left;
+        padding:0;
+    }
+
+    .sub-sub-tittle{
+        width: 300px;
+    }
+
+    .sub-tittle{
+        font-size: 20px;
+        margin-left: 12px;
+    }
+
+    .skiTitle{
+        margin-top: 20px;
+    }
+
+    .skiTitle, #tools, .flow {
+        margin-left: 12px;
+    }
+
+    #tools{
+        width: 250px;
+        border-bottom: double rgb(1, 51, 202) 1px;
+        margin-top: 0;
+        
+    }
+    
+    .flow{
+        font-size: 21px;
+    
+    }
+
+    .list-icons{
+        font-size: 15px;
+        margin-left: 12px;
+    }
+
+    .diIc{
+        
+        margin-left: 0;
+        width: 250px;
+        
+    }
+
+    .ski-icobs{
+        margin-top: 20px;
+        margin-left: 0;
+        font-size: 40px;
+        padding-right: 0;
+        
+    }
+
+
+    #Projects{
+        max-width: 600px;
+    }
+
+    .proHeader{
+        max-width: 300px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .pro-box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        
+        
+  }
+
+  .langBox{
+    border-left: rgb(1, 51, 202) solid 1px;
+    border-right: rgb(1, 51, 202) solid 1px;
+    width: 300px;
+    
+    }
+
+    .boxIcon{
+        width: 281px;
+        border-right: rgb(1, 51, 202) solid 1px;
+    }
+
+    ol{
+        border-bottom: solid 3px blue;
+
+    }
+
+    .langBox:hover{
+        background-color: white;
+        color: rgb(1, 51, 202);
+    }
+
+    #Certifications{
+        
+        max-width: 600px;
+    }
+
+    .award{
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    #medal{
+        font-size: 25px;
+    }
+
+    #aw-des{
+        font-size: 15px;
+        margin-left: 30px;
+        
+        text-align: left;
+        width: 280px;
+    }
+
+    #certi{
+        font-size: 45px;
+        margin-left: 12px;
+    }
+
+    footer{
+        max-width: 600px;
+        height: 250px;
+    }
+
+    .footer-des{
+        border: none;
+        font-size: 15px;
+        margin-left: 12px;
+        max-width: 250px;
+        margin-bottom: 12px;
+        text-align: left;
+        border-bottom: white solid 1px;
+        border-radius: 2px;
+        
+    }
+
+    #fot-ico{
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 12px;
+       
+    }
+
+    .f-icons, .f-iconsii, .f-iconsiii{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+
+
+
+}
